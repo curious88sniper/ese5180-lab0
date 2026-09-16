@@ -1,11 +1,11 @@
 #include <zephyr/kernel.h>
 #include <zephyr/drivers/gpio.h>
 
-#define LED5180_NODE DT_ALIAS(led5180)
-#define BUTTON_NODE DT_ALIAS(sw0)
+#define LED_NODE DT_ALIAS(led5180)
+#define BUTTON_NODE DT_ALIAS(button5180)
 
 static const struct gpio_dt_spec led =
-    GPIO_DT_SPEC_GET(LED5180_NODE, gpios);
+    GPIO_DT_SPEC_GET(LED_NODE, gpios);
 static const struct gpio_dt_spec button =
     GPIO_DT_SPEC_GET(BUTTON_NODE, gpios);
 
