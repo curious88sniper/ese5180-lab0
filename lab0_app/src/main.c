@@ -8,9 +8,9 @@
 #include <zephyr/drivers/gpio.h>
 
 #define SLEEP_TIME_MS 2000
-#define LED0_NODE DT_ALIAS(led0)
+#define LED5180_NODE DT_ALIAS(led5180)
 
-static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED0_NODE, gpios);
+static const struct gpio_dt_spec led = GPIO_DT_SPEC_GET(LED5180_NODE, gpios);
 
 int main(void)
 {
