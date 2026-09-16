@@ -1,0 +1,15 @@
+mainmenu "Lab 0"
+
+choice SUM_OUTPUT
+    prompt "sum output method"
+    default SUM_PRINT
+
+config SUM_PRINT
+    bool "Use printk for sum output"
+
+config SUM_LOG
+    bool "Use logging for sum output"
+
+endchoice
+
+source "Kconfig.zephyr"
