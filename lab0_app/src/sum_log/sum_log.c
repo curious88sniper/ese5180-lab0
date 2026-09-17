@@ -10,5 +10,12 @@ int sum(int a, int b)
 
 void sum_output(int a, int b)
 {
-    LOG_INF("log: %d + %d = %d", a, b, sum(a, b));
+    int inputs[] = { a, b };
+    int result = sum(a, b);
+
+    LOG_INF("sum log implementation selected");
+    LOG_DBG("debug: first input=%d second input=%d", a, b);
+    LOG_WRN("warning example: computing sum with logger");
+    LOG_HEXDUMP_INF(inputs, sizeof(inputs), "sum inputs");
+    LOG_INF("%d + %d = %d", a, b, result);
 }
