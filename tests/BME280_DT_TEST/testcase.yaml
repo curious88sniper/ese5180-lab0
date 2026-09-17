@@ -1,0 +1,6 @@
+tests:
+  lab0.bme280_dt:
+    platform_allow:
+      - qemu_cortex_m3
+    harness: ztest
+    tags: lab0 bme280 devicetree
