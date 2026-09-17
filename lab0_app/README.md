@@ -42,4 +42,4 @@ are required separately from successful compilation.
 This Nordic SDK application does not replace the vanilla Zephyr work
 required for section 1.
 
-![1789678350272](image/README/1789678350272.png)
+![1789678350272](image/README/1789678350272.png)![1789679927962](image/README/1789679927962.png)
