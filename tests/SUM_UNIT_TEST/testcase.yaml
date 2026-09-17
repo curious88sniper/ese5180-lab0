@@ -1,5 +1,7 @@
 tests:
   lab0.sum:
-    platform_allow: qemu_cortex_m3
+    platform_allow:
+      - qemu_cortex_m3
+      - nrf7002dk_nrf5340_cpuapp_ns
     harness: ztest
     tags: lab0 sum

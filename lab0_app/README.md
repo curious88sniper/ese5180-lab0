@@ -43,3 +43,7 @@ This Nordic SDK application does not replace the vanilla Zephyr work
 required for section 1.
 
 ![1789678350272](image/README/1789678350272.png)![1789679927962](image/README/1789679927962.png)
+
+7.
+
+![1789681510402](image/README/1789681510402.png)![1789681517107](image/README/1789681517107.png)
